@@ -145,5 +145,8 @@ class RAWINPUT_API URawInputFunctionLibrary : public UBlueprintFunctionLibrary
 public:
 	UFUNCTION(BlueprintPure, Category="RawInput")
 	static TArray<FRegisteredDeviceInfo> GetRegisteredDevices();
+
+	
+
 };
 

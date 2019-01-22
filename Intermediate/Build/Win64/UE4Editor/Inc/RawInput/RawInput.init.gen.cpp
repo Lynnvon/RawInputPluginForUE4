@@ -19,7 +19,7 @@ void EmptyLinkFunctionForGeneratedCodeRawInput_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/RawInput",
 				PKG_CompiledIn | 0x00000000,
-				0xB6EF3343,
+				0xDD40B23F,
 				0x7DDBA1BD,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)

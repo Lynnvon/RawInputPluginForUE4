@@ -57,10 +57,6 @@ static struct FScriptStruct_RawInput_StaticRegisterNativesFRawInputDeviceConfigu
 		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_AxisProperties;
 		static const UE4CodeGen_Private::FStructPropertyParams NewProp_AxisProperties_Inner;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Index_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FBytePropertyParams NewProp_Index;
-#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ProductID_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FStrPropertyParams NewProp_ProductID;
@@ -98,13 +94,6 @@ static struct FScriptStruct_RawInput_StaticRegisterNativesFRawInputDeviceConfigu
 	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FRawInputDeviceConfiguration_Statics::NewProp_AxisProperties = { UE4CodeGen_Private::EPropertyClass::Array, "AxisProperties", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000001, 1, nullptr, STRUCT_OFFSET(FRawInputDeviceConfiguration, AxisProperties), METADATA_PARAMS(Z_Construct_UScriptStruct_FRawInputDeviceConfiguration_Statics::NewProp_AxisProperties_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FRawInputDeviceConfiguration_Statics::NewProp_AxisProperties_MetaData)) };
 	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FRawInputDeviceConfiguration_Statics::NewProp_AxisProperties_Inner = { UE4CodeGen_Private::EPropertyClass::Struct, "AxisProperties", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0000000000000000, 1, nullptr, 0, Z_Construct_UScriptStruct_FRawInputDeviceAxisProperties, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FRawInputDeviceConfiguration_Statics::NewProp_Index_MetaData[] = {
-		{ "Category", "Device Config" },
-		{ "ModuleRelativePath", "Public/RawInputSettings.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FRawInputDeviceConfiguration_Statics::NewProp_Index = { UE4CodeGen_Private::EPropertyClass::Byte, "Index", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000001, 1, nullptr, STRUCT_OFFSET(FRawInputDeviceConfiguration, Index), nullptr, METADATA_PARAMS(Z_Construct_UScriptStruct_FRawInputDeviceConfiguration_Statics::NewProp_Index_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FRawInputDeviceConfiguration_Statics::NewProp_Index_MetaData)) };
-#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FRawInputDeviceConfiguration_Statics::NewProp_ProductID_MetaData[] = {
 		{ "Category", "Device Config" },
 		{ "ModuleRelativePath", "Public/RawInputSettings.h" },
@@ -125,7 +114,6 @@ static struct FScriptStruct_RawInput_StaticRegisterNativesFRawInputDeviceConfigu
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FRawInputDeviceConfiguration_Statics::NewProp_ButtonProperties_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FRawInputDeviceConfiguration_Statics::NewProp_AxisProperties,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FRawInputDeviceConfiguration_Statics::NewProp_AxisProperties_Inner,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FRawInputDeviceConfiguration_Statics::NewProp_Index,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FRawInputDeviceConfiguration_Statics::NewProp_ProductID,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FRawInputDeviceConfiguration_Statics::NewProp_VendorID,
 	};
@@ -156,7 +144,7 @@ static struct FScriptStruct_RawInput_StaticRegisterNativesFRawInputDeviceConfigu
 		}
 		return ReturnStruct;
 	}
-	uint32 Get_Z_Construct_UScriptStruct_FRawInputDeviceConfiguration_CRC() { return 4084966760U; }
+	uint32 Get_Z_Construct_UScriptStruct_FRawInputDeviceConfiguration_CRC() { return 2641117687U; }
 class UScriptStruct* FRawInputDeviceButtonProperties::StaticStruct()
 {
 	static class UScriptStruct* Singleton = NULL;

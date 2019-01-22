@@ -5,3 +5,7 @@
 >have fun
 
 > Written with [StackEdit](https://stackedit.io/).
+
+MIT License
+
+Copyright (c) 2019 HaiLiang Feng

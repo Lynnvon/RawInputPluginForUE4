@@ -261,7 +261,7 @@ void FRawInputWindows::SetupBindings(const int32 DeviceHandle, const bool bApply
 
 		if (VendorID != 0 && ProductID != 0 && VendorID == DeviceEntry.DeviceData.VendorID && ProductID == DeviceEntry.DeviceData.ProductID)
 		{
-			UE_LOG(LogRawInputWindows, Warning, TEXT("SetupBindings function ProductID %d"), ProductID);
+			UE_LOG(LogRawInputWindows, Log, TEXT("SetupBindings function ProductID %d"), ProductID);
 
 			const int32 NumButtons = FMath::Min(DeviceConfig.ButtonProperties.Num(), MAX_NUM_CONTROLLER_BUTTONS);
 			DeviceEntry.ButtonData.SetNum(NumButtons);

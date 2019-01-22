@@ -12,7 +12,7 @@
 #include "hidsdi.h"
 
 #define MAX_NUM_CONTROLLER_BUTTONS 40
-#define MAX_NUM_CONTROLLER_ANALOG 8
+#define MAX_NUM_CONTROLLER_ANALOG 16
 #define RAW_INPUT_ERROR (uint32)(-1)
 
 class FRawInputWindows;

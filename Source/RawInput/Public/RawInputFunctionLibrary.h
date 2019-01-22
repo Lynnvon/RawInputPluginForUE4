@@ -18,6 +18,15 @@ struct RAWINPUT_API FRawInputKeyNames
 	static const FGamepadKeyNames::Type GenericUSBController_Axis6;
 	static const FGamepadKeyNames::Type GenericUSBController_Axis7;
 	static const FGamepadKeyNames::Type GenericUSBController_Axis8;
+	static const FGamepadKeyNames::Type GenericUSBController_Axis9;
+	static const FGamepadKeyNames::Type GenericUSBController_Axis10;
+	static const FGamepadKeyNames::Type GenericUSBController_Axis11;
+	static const FGamepadKeyNames::Type GenericUSBController_Axis12;
+	static const FGamepadKeyNames::Type GenericUSBController_Axis13;
+	static const FGamepadKeyNames::Type GenericUSBController_Axis14;
+	static const FGamepadKeyNames::Type GenericUSBController_Axis15;
+	static const FGamepadKeyNames::Type GenericUSBController_Axis16;
+
 
 	static const FGamepadKeyNames::Type GenericUSBController_Button1;
 	static const FGamepadKeyNames::Type GenericUSBController_Button2;
@@ -72,6 +81,14 @@ struct RAWINPUT_API FRawInputKeys
 	static const FKey GenericUSBController_Axis6;
 	static const FKey GenericUSBController_Axis7;
 	static const FKey GenericUSBController_Axis8;
+	static const FKey GenericUSBController_Axis9;
+	static const FKey GenericUSBController_Axis10;
+	static const FKey GenericUSBController_Axis11;
+	static const FKey GenericUSBController_Axis12;
+	static const FKey GenericUSBController_Axis13;
+	static const FKey GenericUSBController_Axis14;
+	static const FKey GenericUSBController_Axis15;
+	static const FKey GenericUSBController_Axis16;
 
 	static const FKey GenericUSBController_Button1;
 	static const FKey GenericUSBController_Button2;
@@ -145,5 +162,6 @@ class RAWINPUT_API URawInputFunctionLibrary : public UBlueprintFunctionLibrary
 public:
 	UFUNCTION(BlueprintPure, Category="RawInput")
 	static TArray<FRegisteredDeviceInfo> GetRegisteredDevices();
+
 };
 

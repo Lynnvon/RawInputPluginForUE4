@@ -14,12 +14,12 @@ struct FRegisteredDeviceInfo;
 #endif
 #define RAWINPUT_RawInputFunctionLibrary_generated_h
 
-#define FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputFunctionLibrary_h_122_GENERATED_BODY \
+#define FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputFunctionLibrary_h_139_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FRegisteredDeviceInfo_Statics; \
 	static class UScriptStruct* StaticStruct();
 
 
-#define FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputFunctionLibrary_h_143_RPC_WRAPPERS \
+#define FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputFunctionLibrary_h_160_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execGetRegisteredDevices) \
 	{ \
@@ -30,7 +30,7 @@ struct FRegisteredDeviceInfo;
 	}
 
 
-#define FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputFunctionLibrary_h_143_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputFunctionLibrary_h_160_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execGetRegisteredDevices) \
 	{ \
@@ -41,7 +41,7 @@ struct FRegisteredDeviceInfo;
 	}
 
 
-#define FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputFunctionLibrary_h_143_INCLASS_NO_PURE_DECLS \
+#define FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputFunctionLibrary_h_160_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesURawInputFunctionLibrary(); \
 	friend struct Z_Construct_UClass_URawInputFunctionLibrary_Statics; \
@@ -50,7 +50,7 @@ public: \
 	DECLARE_SERIALIZER(URawInputFunctionLibrary)
 
 
-#define FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputFunctionLibrary_h_143_INCLASS \
+#define FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputFunctionLibrary_h_160_INCLASS \
 private: \
 	static void StaticRegisterNativesURawInputFunctionLibrary(); \
 	friend struct Z_Construct_UClass_URawInputFunctionLibrary_Statics; \
@@ -59,7 +59,7 @@ public: \
 	DECLARE_SERIALIZER(URawInputFunctionLibrary)
 
 
-#define FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputFunctionLibrary_h_143_STANDARD_CONSTRUCTORS \
+#define FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputFunctionLibrary_h_160_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API URawInputFunctionLibrary(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(URawInputFunctionLibrary) \
@@ -72,7 +72,7 @@ private: \
 public:
 
 
-#define FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputFunctionLibrary_h_143_ENHANCED_CONSTRUCTORS \
+#define FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputFunctionLibrary_h_160_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API URawInputFunctionLibrary(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -85,26 +85,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(URawInputFunctionLibrary); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(URawInputFunctionLibrary)
 
 
-#define FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputFunctionLibrary_h_143_PRIVATE_PROPERTY_OFFSET
-#define FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputFunctionLibrary_h_140_PROLOG
-#define FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputFunctionLibrary_h_143_GENERATED_BODY_LEGACY \
+#define FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputFunctionLibrary_h_160_PRIVATE_PROPERTY_OFFSET
+#define FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputFunctionLibrary_h_157_PROLOG
+#define FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputFunctionLibrary_h_160_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputFunctionLibrary_h_143_PRIVATE_PROPERTY_OFFSET \
-	FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputFunctionLibrary_h_143_RPC_WRAPPERS \
-	FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputFunctionLibrary_h_143_INCLASS \
-	FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputFunctionLibrary_h_143_STANDARD_CONSTRUCTORS \
+	FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputFunctionLibrary_h_160_PRIVATE_PROPERTY_OFFSET \
+	FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputFunctionLibrary_h_160_RPC_WRAPPERS \
+	FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputFunctionLibrary_h_160_INCLASS \
+	FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputFunctionLibrary_h_160_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputFunctionLibrary_h_143_GENERATED_BODY \
+#define FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputFunctionLibrary_h_160_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputFunctionLibrary_h_143_PRIVATE_PROPERTY_OFFSET \
-	FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputFunctionLibrary_h_143_RPC_WRAPPERS_NO_PURE_DECLS \
-	FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputFunctionLibrary_h_143_INCLASS_NO_PURE_DECLS \
-	FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputFunctionLibrary_h_143_ENHANCED_CONSTRUCTORS \
+	FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputFunctionLibrary_h_160_PRIVATE_PROPERTY_OFFSET \
+	FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputFunctionLibrary_h_160_RPC_WRAPPERS_NO_PURE_DECLS \
+	FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputFunctionLibrary_h_160_INCLASS_NO_PURE_DECLS \
+	FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputFunctionLibrary_h_160_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

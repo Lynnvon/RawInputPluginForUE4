@@ -132,6 +132,7 @@ HWND GetWindowHandle()
 //注册外设
 int32 FRawInputWindows::RegisterInputDevice(const int32 DeviceType, const int32 Flags, const uint16 DeviceID, const int16 PageID)
 {
+	
 
 	int32 DeviceHandle = INDEX_NONE;
 	FRawInputRegisteredDevice DeviceData(DeviceType, DeviceID, PageID);
@@ -295,7 +296,6 @@ void FRawInputWindows::SetupBindings(const int32 DeviceHandle, const bool bApply
 
 	if (!bDefaultsSetup && bApplyDefaults)
 	{
-		UE_LOG(LogRawInputWindows, Warning, TEXT("SetupBindings function 299"));
 
 		BindAnalogForDevice(DeviceHandle, FRawInputKeyNames::GenericUSBController_Axis1, 0);
 		BindAnalogForDevice(DeviceHandle, FRawInputKeyNames::GenericUSBController_Axis2, 1);
@@ -305,6 +305,15 @@ void FRawInputWindows::SetupBindings(const int32 DeviceHandle, const bool bApply
 		BindAnalogForDevice(DeviceHandle, FRawInputKeyNames::GenericUSBController_Axis6, 5);
 		BindAnalogForDevice(DeviceHandle, FRawInputKeyNames::GenericUSBController_Axis7, 6);
 		BindAnalogForDevice(DeviceHandle, FRawInputKeyNames::GenericUSBController_Axis8, 7);
+		BindAnalogForDevice(DeviceHandle, FRawInputKeyNames::GenericUSBController_Axis9, 8);
+		BindAnalogForDevice(DeviceHandle, FRawInputKeyNames::GenericUSBController_Axis10, 9);
+		BindAnalogForDevice(DeviceHandle, FRawInputKeyNames::GenericUSBController_Axis11, 10);
+		BindAnalogForDevice(DeviceHandle, FRawInputKeyNames::GenericUSBController_Axis12, 11);
+		BindAnalogForDevice(DeviceHandle, FRawInputKeyNames::GenericUSBController_Axis13, 12);
+		BindAnalogForDevice(DeviceHandle, FRawInputKeyNames::GenericUSBController_Axis14, 13);
+		BindAnalogForDevice(DeviceHandle, FRawInputKeyNames::GenericUSBController_Axis15, 14);
+		BindAnalogForDevice(DeviceHandle, FRawInputKeyNames::GenericUSBController_Axis16, 15);
+
 
 		BindButtonForDevice(DeviceHandle, FRawInputKeyNames::GenericUSBController_Button1, 0);
 		BindButtonForDevice(DeviceHandle, FRawInputKeyNames::GenericUSBController_Button2, 1);

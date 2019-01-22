@@ -20,6 +20,14 @@ const FGamepadKeyNames::Type FRawInputKeyNames::GenericUSBController_Axis5( "Gen
 const FGamepadKeyNames::Type FRawInputKeyNames::GenericUSBController_Axis6( "GenericUSBController_Axis6" );
 const FGamepadKeyNames::Type FRawInputKeyNames::GenericUSBController_Axis7( "GenericUSBController_Axis7" );
 const FGamepadKeyNames::Type FRawInputKeyNames::GenericUSBController_Axis8( "GenericUSBController_Axis8" );
+const FGamepadKeyNames::Type FRawInputKeyNames::GenericUSBController_Axis9( "GenericUSBController_Axis9" );
+const FGamepadKeyNames::Type FRawInputKeyNames::GenericUSBController_Axis10( "GenericUSBController_Axis10" );
+const FGamepadKeyNames::Type FRawInputKeyNames::GenericUSBController_Axis11( "GenericUSBController_Axis11" );
+const FGamepadKeyNames::Type FRawInputKeyNames::GenericUSBController_Axis12( "GenericUSBController_Axis12" );
+const FGamepadKeyNames::Type FRawInputKeyNames::GenericUSBController_Axis13( "GenericUSBController_Axis13" );
+const FGamepadKeyNames::Type FRawInputKeyNames::GenericUSBController_Axis14( "GenericUSBController_Axis14" );
+const FGamepadKeyNames::Type FRawInputKeyNames::GenericUSBController_Axis15( "GenericUSBController_Axis15" );
+const FGamepadKeyNames::Type FRawInputKeyNames::GenericUSBController_Axis16( "GenericUSBController_Axis16" );
 
 const FGamepadKeyNames::Type FRawInputKeyNames::GenericUSBController_Button1("GenericUSBController_Button1");
 const FGamepadKeyNames::Type FRawInputKeyNames::GenericUSBController_Button2("GenericUSBController_Button2");
@@ -72,6 +80,14 @@ const FKey FRawInputKeys::GenericUSBController_Axis5(FRawInputKeyNames::GenericU
 const FKey FRawInputKeys::GenericUSBController_Axis6(FRawInputKeyNames::GenericUSBController_Axis6);
 const FKey FRawInputKeys::GenericUSBController_Axis7(FRawInputKeyNames::GenericUSBController_Axis7);
 const FKey FRawInputKeys::GenericUSBController_Axis8(FRawInputKeyNames::GenericUSBController_Axis8);
+const FKey FRawInputKeys::GenericUSBController_Axis9(FRawInputKeyNames::GenericUSBController_Axis9);
+const FKey FRawInputKeys::GenericUSBController_Axis10(FRawInputKeyNames::GenericUSBController_Axis10);
+const FKey FRawInputKeys::GenericUSBController_Axis11(FRawInputKeyNames::GenericUSBController_Axis11);
+const FKey FRawInputKeys::GenericUSBController_Axis12(FRawInputKeyNames::GenericUSBController_Axis12);
+const FKey FRawInputKeys::GenericUSBController_Axis13(FRawInputKeyNames::GenericUSBController_Axis13);
+const FKey FRawInputKeys::GenericUSBController_Axis14(FRawInputKeyNames::GenericUSBController_Axis14);
+const FKey FRawInputKeys::GenericUSBController_Axis15(FRawInputKeyNames::GenericUSBController_Axis15);
+const FKey FRawInputKeys::GenericUSBController_Axis16(FRawInputKeyNames::GenericUSBController_Axis16);
 
 const FKey FRawInputKeys::GenericUSBController_Button1(FRawInputKeyNames::GenericUSBController_Button1);
 const FKey FRawInputKeys::GenericUSBController_Button2(FRawInputKeyNames::GenericUSBController_Button2);
@@ -144,6 +160,15 @@ void FRawInputPlugin::StartupModule()
 	EKeys::AddKey(FKeyDetails(FRawInputKeys::GenericUSBController_Axis6, LOCTEXT("GenericUSBController_Axis6", "GenericUSBController Axis 6"), FKeyDetails::GamepadKey, NAME_GenericUSBController));
 	EKeys::AddKey(FKeyDetails(FRawInputKeys::GenericUSBController_Axis7, LOCTEXT("GenericUSBController_Axis7", "GenericUSBController Axis 7"), FKeyDetails::GamepadKey, NAME_GenericUSBController));
 	EKeys::AddKey(FKeyDetails(FRawInputKeys::GenericUSBController_Axis8, LOCTEXT("GenericUSBController_Axis8", "GenericUSBController Axis 8"), FKeyDetails::GamepadKey, NAME_GenericUSBController));
+	EKeys::AddKey(FKeyDetails(FRawInputKeys::GenericUSBController_Axis9, LOCTEXT("GenericUSBController_Axis9", "GenericUSBController Axis 9"), FKeyDetails::GamepadKey, NAME_GenericUSBController));
+	EKeys::AddKey(FKeyDetails(FRawInputKeys::GenericUSBController_Axis10, LOCTEXT("GenericUSBController_Axis10", "GenericUSBController Axis 10"), FKeyDetails::GamepadKey, NAME_GenericUSBController));
+	EKeys::AddKey(FKeyDetails(FRawInputKeys::GenericUSBController_Axis11, LOCTEXT("GenericUSBController_Axis11", "GenericUSBController Axis 11"), FKeyDetails::GamepadKey, NAME_GenericUSBController));
+	EKeys::AddKey(FKeyDetails(FRawInputKeys::GenericUSBController_Axis12, LOCTEXT("GenericUSBController_Axis12", "GenericUSBController Axis 12"), FKeyDetails::GamepadKey, NAME_GenericUSBController));
+	EKeys::AddKey(FKeyDetails(FRawInputKeys::GenericUSBController_Axis13, LOCTEXT("GenericUSBController_Axis13", "GenericUSBController Axis 13"), FKeyDetails::GamepadKey, NAME_GenericUSBController));
+	EKeys::AddKey(FKeyDetails(FRawInputKeys::GenericUSBController_Axis14, LOCTEXT("GenericUSBController_Axis14", "GenericUSBController Axis 14"), FKeyDetails::GamepadKey, NAME_GenericUSBController));
+	EKeys::AddKey(FKeyDetails(FRawInputKeys::GenericUSBController_Axis15, LOCTEXT("GenericUSBController_Axis15", "GenericUSBController Axis 15"), FKeyDetails::GamepadKey, NAME_GenericUSBController));
+	EKeys::AddKey(FKeyDetails(FRawInputKeys::GenericUSBController_Axis16, LOCTEXT("GenericUSBController_Axis16", "GenericUSBController Axis 16"), FKeyDetails::GamepadKey, NAME_GenericUSBController));
+
 
 	EKeys::AddKey(FKeyDetails(FRawInputKeys::GenericUSBController_Button1, LOCTEXT("GenericUSBController_Button1", "GenericUSBController Button 1"), FKeyDetails::GamepadKey, NAME_GenericUSBController));
 	EKeys::AddKey(FKeyDetails(FRawInputKeys::GenericUSBController_Button2, LOCTEXT("GenericUSBController_Button2", "GenericUSBController Button 2"), FKeyDetails::GamepadKey, NAME_GenericUSBController));

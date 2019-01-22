@@ -62,6 +62,14 @@ FRawInputDeviceConfiguration::FRawInputDeviceConfiguration()
 	AxisProperties[5].Key = FRawInputKeys::GenericUSBController_Axis6;
 	AxisProperties[6].Key = FRawInputKeys::GenericUSBController_Axis7;
 	AxisProperties[7].Key = FRawInputKeys::GenericUSBController_Axis8;
+	AxisProperties[8].Key = FRawInputKeys::GenericUSBController_Axis9;
+	AxisProperties[9].Key = FRawInputKeys::GenericUSBController_Axis10;
+	AxisProperties[10].Key = FRawInputKeys::GenericUSBController_Axis11;
+	AxisProperties[11].Key = FRawInputKeys::GenericUSBController_Axis12;
+	AxisProperties[12].Key = FRawInputKeys::GenericUSBController_Axis13;
+	AxisProperties[13].Key = FRawInputKeys::GenericUSBController_Axis14;
+	AxisProperties[14].Key = FRawInputKeys::GenericUSBController_Axis15;
+	AxisProperties[15].Key = FRawInputKeys::GenericUSBController_Axis16;
 
 
 }

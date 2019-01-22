@@ -28,9 +28,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	static class UScriptStruct* StaticStruct();
 
 
-#define FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputSettings_h_89_RPC_WRAPPERS
-#define FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputSettings_h_89_RPC_WRAPPERS_NO_PURE_DECLS
-#define FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputSettings_h_89_INCLASS_NO_PURE_DECLS \
+#define FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputSettings_h_87_RPC_WRAPPERS
+#define FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputSettings_h_87_RPC_WRAPPERS_NO_PURE_DECLS
+#define FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputSettings_h_87_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesURawInputSettings(); \
 	friend struct Z_Construct_UClass_URawInputSettings_Statics; \
@@ -41,7 +41,7 @@ public: \
 
 
 
-#define FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputSettings_h_89_INCLASS \
+#define FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputSettings_h_87_INCLASS \
 private: \
 	static void StaticRegisterNativesURawInputSettings(); \
 	friend struct Z_Construct_UClass_URawInputSettings_Statics; \
@@ -52,7 +52,7 @@ public: \
 
 
 
-#define FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputSettings_h_89_STANDARD_CONSTRUCTORS \
+#define FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputSettings_h_87_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API URawInputSettings(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(URawInputSettings) \
@@ -65,7 +65,7 @@ private: \
 public:
 
 
-#define FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputSettings_h_89_ENHANCED_CONSTRUCTORS \
+#define FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputSettings_h_87_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API URawInputSettings(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -78,26 +78,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(URawInputSettings); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(URawInputSettings)
 
 
-#define FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputSettings_h_89_PRIVATE_PROPERTY_OFFSET
-#define FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputSettings_h_86_PROLOG
-#define FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputSettings_h_89_GENERATED_BODY_LEGACY \
+#define FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputSettings_h_87_PRIVATE_PROPERTY_OFFSET
+#define FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputSettings_h_84_PROLOG
+#define FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputSettings_h_87_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputSettings_h_89_PRIVATE_PROPERTY_OFFSET \
-	FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputSettings_h_89_RPC_WRAPPERS \
-	FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputSettings_h_89_INCLASS \
-	FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputSettings_h_89_STANDARD_CONSTRUCTORS \
+	FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputSettings_h_87_PRIVATE_PROPERTY_OFFSET \
+	FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputSettings_h_87_RPC_WRAPPERS \
+	FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputSettings_h_87_INCLASS \
+	FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputSettings_h_87_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputSettings_h_89_GENERATED_BODY \
+#define FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputSettings_h_87_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputSettings_h_89_PRIVATE_PROPERTY_OFFSET \
-	FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputSettings_h_89_RPC_WRAPPERS_NO_PURE_DECLS \
-	FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputSettings_h_89_INCLASS_NO_PURE_DECLS \
-	FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputSettings_h_89_ENHANCED_CONSTRUCTORS \
+	FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputSettings_h_87_PRIVATE_PROPERTY_OFFSET \
+	FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputSettings_h_87_RPC_WRAPPERS_NO_PURE_DECLS \
+	FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputSettings_h_87_INCLASS_NO_PURE_DECLS \
+	FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputSettings_h_87_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

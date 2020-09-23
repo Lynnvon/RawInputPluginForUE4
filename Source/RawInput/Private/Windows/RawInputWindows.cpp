@@ -652,7 +652,8 @@ void FRawInputWindows::ParseInputData(const int32 InHandle, const RAWINPUT *InRa
 		{
 			for (FButtonData &DeviceButtonData : DeviceEntry->ButtonData)
 			{
-				DeviceButtonData.bPreviousButtonState = DeviceButtonData.bButtonState;
+				//注释掉   这会导致案件失灵
+				//DeviceButtonData.bPreviousButtonState = DeviceButtonData.bButtonState;
 				DeviceButtonData.bButtonState = false;
 			}
 

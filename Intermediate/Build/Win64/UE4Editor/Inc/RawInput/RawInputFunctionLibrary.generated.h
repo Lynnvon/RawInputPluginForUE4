@@ -1,4 +1,4 @@
-// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -14,34 +14,25 @@ struct FRegisteredDeviceInfo;
 #endif
 #define RAWINPUT_RawInputFunctionLibrary_generated_h
 
-#define FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputFunctionLibrary_h_139_GENERATED_BODY \
+#define CombatSim_Plugins_RawInputPluginForUE4_Source_RawInput_Public_RawInputFunctionLibrary_h_139_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FRegisteredDeviceInfo_Statics; \
 	static class UScriptStruct* StaticStruct();
 
 
-#define FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputFunctionLibrary_h_160_RPC_WRAPPERS \
+template<> RAWINPUT_API UScriptStruct* StaticStruct<struct FRegisteredDeviceInfo>();
+
+#define CombatSim_Plugins_RawInputPluginForUE4_Source_RawInput_Public_RawInputFunctionLibrary_h_160_SPARSE_DATA
+#define CombatSim_Plugins_RawInputPluginForUE4_Source_RawInput_Public_RawInputFunctionLibrary_h_160_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execGetRegisteredDevices) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		*(TArray<FRegisteredDeviceInfo>*)Z_Param__Result=URawInputFunctionLibrary::GetRegisteredDevices(); \
-		P_NATIVE_END; \
-	}
+	DECLARE_FUNCTION(execGetRegisteredDevices);
 
 
-#define FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputFunctionLibrary_h_160_RPC_WRAPPERS_NO_PURE_DECLS \
+#define CombatSim_Plugins_RawInputPluginForUE4_Source_RawInput_Public_RawInputFunctionLibrary_h_160_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execGetRegisteredDevices) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		*(TArray<FRegisteredDeviceInfo>*)Z_Param__Result=URawInputFunctionLibrary::GetRegisteredDevices(); \
-		P_NATIVE_END; \
-	}
+	DECLARE_FUNCTION(execGetRegisteredDevices);
 
 
-#define FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputFunctionLibrary_h_160_INCLASS_NO_PURE_DECLS \
+#define CombatSim_Plugins_RawInputPluginForUE4_Source_RawInput_Public_RawInputFunctionLibrary_h_160_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesURawInputFunctionLibrary(); \
 	friend struct Z_Construct_UClass_URawInputFunctionLibrary_Statics; \
@@ -50,7 +41,7 @@ public: \
 	DECLARE_SERIALIZER(URawInputFunctionLibrary)
 
 
-#define FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputFunctionLibrary_h_160_INCLASS \
+#define CombatSim_Plugins_RawInputPluginForUE4_Source_RawInput_Public_RawInputFunctionLibrary_h_160_INCLASS \
 private: \
 	static void StaticRegisterNativesURawInputFunctionLibrary(); \
 	friend struct Z_Construct_UClass_URawInputFunctionLibrary_Statics; \
@@ -59,12 +50,12 @@ public: \
 	DECLARE_SERIALIZER(URawInputFunctionLibrary)
 
 
-#define FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputFunctionLibrary_h_160_STANDARD_CONSTRUCTORS \
+#define CombatSim_Plugins_RawInputPluginForUE4_Source_RawInput_Public_RawInputFunctionLibrary_h_160_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API URawInputFunctionLibrary(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(URawInputFunctionLibrary) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, URawInputFunctionLibrary); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(URawInputFunctionLibrary); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(URawInputFunctionLibrary); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API URawInputFunctionLibrary(URawInputFunctionLibrary&&); \
@@ -72,7 +63,7 @@ private: \
 public:
 
 
-#define FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputFunctionLibrary_h_160_ENHANCED_CONSTRUCTORS \
+#define CombatSim_Plugins_RawInputPluginForUE4_Source_RawInput_Public_RawInputFunctionLibrary_h_160_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API URawInputFunctionLibrary(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -81,36 +72,40 @@ private: \
 	NO_API URawInputFunctionLibrary(const URawInputFunctionLibrary&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, URawInputFunctionLibrary); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(URawInputFunctionLibrary); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(URawInputFunctionLibrary); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(URawInputFunctionLibrary)
 
 
-#define FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputFunctionLibrary_h_160_PRIVATE_PROPERTY_OFFSET
-#define FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputFunctionLibrary_h_157_PROLOG
-#define FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputFunctionLibrary_h_160_GENERATED_BODY_LEGACY \
+#define CombatSim_Plugins_RawInputPluginForUE4_Source_RawInput_Public_RawInputFunctionLibrary_h_160_PRIVATE_PROPERTY_OFFSET
+#define CombatSim_Plugins_RawInputPluginForUE4_Source_RawInput_Public_RawInputFunctionLibrary_h_157_PROLOG
+#define CombatSim_Plugins_RawInputPluginForUE4_Source_RawInput_Public_RawInputFunctionLibrary_h_160_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputFunctionLibrary_h_160_PRIVATE_PROPERTY_OFFSET \
-	FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputFunctionLibrary_h_160_RPC_WRAPPERS \
-	FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputFunctionLibrary_h_160_INCLASS \
-	FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputFunctionLibrary_h_160_STANDARD_CONSTRUCTORS \
+	CombatSim_Plugins_RawInputPluginForUE4_Source_RawInput_Public_RawInputFunctionLibrary_h_160_PRIVATE_PROPERTY_OFFSET \
+	CombatSim_Plugins_RawInputPluginForUE4_Source_RawInput_Public_RawInputFunctionLibrary_h_160_SPARSE_DATA \
+	CombatSim_Plugins_RawInputPluginForUE4_Source_RawInput_Public_RawInputFunctionLibrary_h_160_RPC_WRAPPERS \
+	CombatSim_Plugins_RawInputPluginForUE4_Source_RawInput_Public_RawInputFunctionLibrary_h_160_INCLASS \
+	CombatSim_Plugins_RawInputPluginForUE4_Source_RawInput_Public_RawInputFunctionLibrary_h_160_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputFunctionLibrary_h_160_GENERATED_BODY \
+#define CombatSim_Plugins_RawInputPluginForUE4_Source_RawInput_Public_RawInputFunctionLibrary_h_160_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputFunctionLibrary_h_160_PRIVATE_PROPERTY_OFFSET \
-	FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputFunctionLibrary_h_160_RPC_WRAPPERS_NO_PURE_DECLS \
-	FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputFunctionLibrary_h_160_INCLASS_NO_PURE_DECLS \
-	FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputFunctionLibrary_h_160_ENHANCED_CONSTRUCTORS \
+	CombatSim_Plugins_RawInputPluginForUE4_Source_RawInput_Public_RawInputFunctionLibrary_h_160_PRIVATE_PROPERTY_OFFSET \
+	CombatSim_Plugins_RawInputPluginForUE4_Source_RawInput_Public_RawInputFunctionLibrary_h_160_SPARSE_DATA \
+	CombatSim_Plugins_RawInputPluginForUE4_Source_RawInput_Public_RawInputFunctionLibrary_h_160_RPC_WRAPPERS_NO_PURE_DECLS \
+	CombatSim_Plugins_RawInputPluginForUE4_Source_RawInput_Public_RawInputFunctionLibrary_h_160_INCLASS_NO_PURE_DECLS \
+	CombatSim_Plugins_RawInputPluginForUE4_Source_RawInput_Public_RawInputFunctionLibrary_h_160_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
+template<> RAWINPUT_API UClass* StaticClass<class URawInputFunctionLibrary>();
+
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FlightSim_Plugins_RawInput_Source_RawInput_Public_RawInputFunctionLibrary_h
+#define CURRENT_FILE_ID CombatSim_Plugins_RawInputPluginForUE4_Source_RawInput_Public_RawInputFunctionLibrary_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

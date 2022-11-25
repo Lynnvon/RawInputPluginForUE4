@@ -6,8 +6,8 @@
 /NAME:"UE4Editor-RawInput.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"E:\UnrealProject\FlightSim\Intermediate\Build\Win64\FlightSimEditor\Development\Engine\SharedPCH.Engine.h.obj"
-"E:\UnrealProject\FlightSim\Plugins\RawInput\Intermediate\Build\Win64\UE4Editor\Development\RawInput\Module.RawInput.cpp.obj"
-"E:\UnrealProject\FlightSim\Plugins\RawInput\Intermediate\Build\Win64\UE4Editor\Development\RawInput\Module.RawInput.gen.cpp.obj"
-"E:\UnrealProject\FlightSim\Plugins\RawInput\Intermediate\Build\Win64\UE4Editor\Development\RawInput\PCLaunch.rc.res"
-/OUT:"E:\UnrealProject\FlightSim\Plugins\RawInput\Intermediate\Build\Win64\UE4Editor\Development\RawInput\UE4Editor-RawInput.lib"
+"C:\P4Workspace\CombatSim\Intermediate\Build\Win64\CombatSimEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\P4Workspace\CombatSim\Plugins\RawInputPluginForUE4\Intermediate\Build\Win64\UE4Editor\Development\RawInput\Module.RawInput.cpp.obj"
+"C:\P4Workspace\CombatSim\Plugins\RawInputPluginForUE4\Intermediate\Build\Win64\UE4Editor\Development\RawInput\Module.RawInput.gen.cpp.obj"
+"C:\P4Workspace\CombatSim\Plugins\RawInputPluginForUE4\Intermediate\Build\Win64\UE4Editor\Development\RawInput\Default.rc2.res"
+/OUT:"C:\P4Workspace\CombatSim\Plugins\RawInputPluginForUE4\Intermediate\Build\Win64\UE4Editor\Development\RawInput\UE4Editor-RawInput.lib"

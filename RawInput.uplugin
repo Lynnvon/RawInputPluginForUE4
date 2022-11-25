@@ -8,7 +8,7 @@
 	"CreatedByURL" : "http://epicgames.com",
 	"Description" : "RawInput provides an interface to receive input from  Flight Sticks, Steering Wheels, and other non-XInput supported devices in Windows.",
 	"Category" : "Input Devices",
-	"EnabledByDefault" : false,
+	"EnabledByDefault" : true,
 	
     "Modules" :
 	[

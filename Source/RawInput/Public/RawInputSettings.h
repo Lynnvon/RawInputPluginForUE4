@@ -17,6 +17,7 @@ struct RAWINPUT_API FRawInputDeviceAxisProperties
 		: bEnabled(true)
 		, bInverted(false)
 		, Offset(0.f)
+		, Scale(1.f)
 	{
 	}
 
@@ -35,6 +36,9 @@ struct RAWINPUT_API FRawInputDeviceAxisProperties
 	/** The amount to offset the axis value by to get the desired range (note that this offset is applied after the value has been inverted). */
 	UPROPERTY(EditAnywhere, Category="Axis Properties", meta=(EditCondition="bEnabled"))
 	float Offset;
+
+	UPROPERTY(EditAnywhere, Category = "Axis Properties", meta = (EditCondition = "bEnabled"))
+	float Scale;
 };
 
 USTRUCT()

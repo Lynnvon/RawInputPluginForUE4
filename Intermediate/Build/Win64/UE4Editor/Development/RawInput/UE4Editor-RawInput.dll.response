@@ -1,4 +1,5 @@
-/MANIFEST:NO
+/MANIFEST:EMBED
+/MANIFESTINPUT:C:\UEEngines\UE_4.27\Engine\Build\Windows\Resources\Default-Win64.manifest
 /NOLOGO
 /DEBUG
 /errorReport:prompt
@@ -6,7 +7,7 @@
 /SUBSYSTEM:WINDOWS
 /FIXED:No
 /NXCOMPAT
-/STACK:5000000
+/STACK:12000000
 /DELAY:UNLOAD
 /DLL
 /PDBALTPATH:%_PDB%
@@ -16,10 +17,11 @@
 /ignore:4199
 /ignore:4099
 /DELAYLOAD:"d3d12.dll"
-/LIBPATH:"C:\Program Files (x86)\Microsoft Visual Studio\Community\VC\Tools\MSVC\14.16.27023\lib\x64"
-/LIBPATH:"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6\lib\um\x64"
-/LIBPATH:"C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\ucrt\x64"
-/LIBPATH:"C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64"
+/DELAYLOAD:"DBGHELP.DLL"
+/LIBPATH:"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\lib\x64"
+/LIBPATH:"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.2\lib\um\x64"
+/LIBPATH:"C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\ucrt\x64"
+/LIBPATH:"C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x64"
 /NODEFAULTLIB:"LIBCMT"
 /NODEFAULTLIB:"LIBCPMT"
 /NODEFAULTLIB:"LIBCMTD"
@@ -30,10 +32,19 @@
 /NODEFAULTLIB:"LIBCP"
 /NODEFAULTLIB:"LIBCD"
 /NODEFAULTLIB:"LIBCPD"
-"E:\UnrealProject\FlightSim\Intermediate\Build\Win64\FlightSimEditor\Development\Engine\SharedPCH.Engine.h.obj"
-"E:\UnrealProject\FlightSim\Plugins\RawInput\Intermediate\Build\Win64\UE4Editor\Development\RawInput\Module.RawInput.cpp.obj"
-"E:\UnrealProject\FlightSim\Plugins\RawInput\Intermediate\Build\Win64\UE4Editor\Development\RawInput\Module.RawInput.gen.cpp.obj"
-"E:\UnrealProject\FlightSim\Plugins\RawInput\Intermediate\Build\Win64\UE4Editor\Development\RawInput\PCLaunch.rc.res"
+/FUNCTIONPADMIN
+"C:\P4Workspace\CombatSim\Intermediate\Build\Win64\CombatSimEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\P4Workspace\CombatSim\Plugins\RawInputPluginForUE4\Intermediate\Build\Win64\UE4Editor\Development\RawInput\Module.RawInput.cpp.obj"
+"C:\P4Workspace\CombatSim\Plugins\RawInputPluginForUE4\Intermediate\Build\Win64\UE4Editor\Development\RawInput\Module.RawInput.gen.cpp.obj"
+"C:\P4Workspace\CombatSim\Plugins\RawInputPluginForUE4\Intermediate\Build\Win64\UE4Editor\Development\RawInput\Default.rc2.res"
+"C:\UEEngines\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Development\InputDevice\UE4Editor-InputDevice.lib"
+"C:\UEEngines\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Development\DeveloperSettings\UE4Editor-DeveloperSettings.lib"
+"C:\UEEngines\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Development\Core\UE4Editor-Core.lib"
+"C:\UEEngines\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Development\CoreUObject\UE4Editor-CoreUObject.lib"
+"C:\UEEngines\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\UE4Editor-Engine.lib"
+"C:\UEEngines\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Development\InputCore\UE4Editor-InputCore.lib"
+"C:\UEEngines\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Development\SlateCore\UE4Editor-SlateCore.lib"
+"C:\UEEngines\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Development\Slate\UE4Editor-Slate.lib"
 "delayimp.lib"
 "wininet.lib"
 "rpcrt4.lib"
@@ -58,14 +69,7 @@
 "setupapi.lib"
 "dwmapi.lib"
 "imm32.lib"
-"D:\Epic Games\UE_4.21\Engine\Intermediate\Build\Win64\UE4Editor\Development\InputDevice\UE4Editor-InputDevice.lib"
-"D:\Epic Games\UE_4.21\Engine\Intermediate\Build\Win64\UE4Editor\Development\Core\UE4Editor-Core.lib"
-"D:\Epic Games\UE_4.21\Engine\Intermediate\Build\Win64\UE4Editor\Development\CoreUObject\UE4Editor-CoreUObject.lib"
-"D:\Epic Games\UE_4.21\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\UE4Editor-Engine.lib"
-"D:\Epic Games\UE_4.21\Engine\Intermediate\Build\Win64\UE4Editor\Development\InputCore\UE4Editor-InputCore.lib"
-"D:\Epic Games\UE_4.21\Engine\Intermediate\Build\Win64\UE4Editor\Development\SlateCore\UE4Editor-SlateCore.lib"
-"D:\Epic Games\UE_4.21\Engine\Intermediate\Build\Win64\UE4Editor\Development\Slate\UE4Editor-Slate.lib"
-/OUT:"E:\UnrealProject\FlightSim\Plugins\RawInput\Binaries\Win64\UE4Editor-RawInput.dll"
-/IMPLIB:"E:\UnrealProject\FlightSim\Plugins\RawInput\Intermediate\Build\Win64\UE4Editor\Development\RawInput\UE4Editor-RawInput.suppressed.lib"
-/PDB:"E:\UnrealProject\FlightSim\Plugins\RawInput\Binaries\Win64\UE4Editor-RawInput.pdb"
+/OUT:"C:\P4Workspace\CombatSim\Plugins\RawInputPluginForUE4\Binaries\Win64\UE4Editor-RawInput.dll"
+/IMPLIB:"C:\P4Workspace\CombatSim\Plugins\RawInputPluginForUE4\Intermediate\Build\Win64\UE4Editor\Development\RawInput\UE4Editor-RawInput.suppressed.lib"
+/PDB:"C:\P4Workspace\CombatSim\Plugins\RawInputPluginForUE4\Binaries\Win64\UE4Editor-RawInput.pdb"
 /ignore:4078

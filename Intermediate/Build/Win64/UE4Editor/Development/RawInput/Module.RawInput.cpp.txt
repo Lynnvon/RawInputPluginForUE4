@@ -1,0 +1,248 @@
+C:\P4Workspace\CombatSim\Plugins\RawInputPluginForUE4\Intermediate\Build\Win64\UE4Editor\Development\RawInput\Definitions.RawInput.h
+C:/P4Workspace/CombatSim/Plugins/RawInputPluginForUE4/Source/RawInput/Private/RawInput.cpp
+C:\P4Workspace\CombatSim\Plugins\RawInputPluginForUE4\Source\RawInput\Public\RawInput.h
+C:\UEEngines\UE_4.27\Engine\Source\Runtime\InputDevice\Public\IInputDeviceModule.h
+C:\UEEngines\UE_4.27\Engine\Source\Runtime\InputDevice\Public\IInputDevice.h
+C:\P4Workspace\CombatSim\Plugins\RawInputPluginForUE4\Source\RawInput\Public\RawInputFunctionLibrary.h
+C:\P4Workspace\CombatSim\Plugins\RawInputPluginForUE4\Intermediate\Build\Win64\UE4Editor\Inc\RawInput\RawInputFunctionLibrary.generated.h
+C:\P4Workspace\CombatSim\Plugins\RawInputPluginForUE4\Source\RawInput\Public\Windows/RawInputWindows.h
+C:\UEEngines\UE_4.27\Engine\Source\Runtime\ApplicationCore\Public\Windows/WindowsApplication.h
+C:\UEEngines\UE_4.27\Engine\Source\Runtime\Core\Public\Windows/WindowsHWrapper.h
+C:\UEEngines\UE_4.27\Engine\Source\Runtime\Core\Public\Windows/PreWindowsApi.h
+C:\UEEngines\UE_4.27\Engine\Source\Runtime\Core\Public\Windows/MinWindows.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\Windows.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\sdkddkver.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\excpt.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\windef.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\minwindef.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winnt.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\kernelspecs.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\basetsd.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\guiddef.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack4.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack4.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack4.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack2.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack2.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack2.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack8.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack1.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack1.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\apiset.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\ktmtypes.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winbase.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\apisetcconv.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\minwinbase.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\apiquery2.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\processenv.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\fileapifromapp.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\fileapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\debugapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\utilapiset.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\handleapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\errhandlingapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\fibersapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\namedpipeapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\profileapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\heapapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\ioapiset.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\synchapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\interlockedapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\processthreadsapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\sysinfoapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\memoryapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\enclaveapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\threadpoollegacyapiset.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\threadpoolapiset.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\jobapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\jobapi2.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\wow64apiset.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\libloaderapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\securitybaseapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\namespaceapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\systemtopologyapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\processtopologyapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\securityappcontainer.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\realtimeapiset.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\winerror.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\timezoneapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\wingdi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack1.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack2.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack4.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack4.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winuser.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack2.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\tvout.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winnls.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\datetimeapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\stringapiset.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winnls.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\wincon.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\wincontypes.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\consoleapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\consoleapi2.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\consoleapi3.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winver.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\verrsrc.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winreg.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\reason.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winnetwk.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\wnnc.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\stralign.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\imm.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\ime_cmodes.h
+C:\UEEngines\UE_4.27\Engine\Source\Runtime\Core\Public\Windows/PostWindowsApi.h
+C:\UEEngines\UE_4.27\Engine\Source\Runtime\Core\Public\Windows/AllowWindowsPlatformTypes.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\Ole2.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack8.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\objbase.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\rpc.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack8.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\rpcdce.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\rpcdcep.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\rpcnsi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\rpcnterr.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\rpcasync.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack8.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\rpcndr.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack8.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\rpcnsip.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\rpcsal.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack8.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\combaseapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack8.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\wtypesbase.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\guiddef.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\unknwnbase.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\objidlbase.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\guiddef.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\cguid.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\coml2api.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\objidl.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\unknwn.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\wtypes.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\propidlbase.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\oaidl.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\urlmon.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\oleidl.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\servprov.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\msxml.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\propidl.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\oleauto.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack8.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\ShObjIdl.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\docobj.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\ocidl.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\shtypes.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack1.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack1.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack8.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack1.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\comcat.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\prsht.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack8.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\propsys.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\StructuredQueryCondition.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\propkeydef.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\ObjectArray.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\shobjidl_core.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\sherrors.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack8.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack8.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\prsht.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack8.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\commctrl.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\prsht.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack1.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack1.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack1.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack1.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack1.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\dpa_dsa.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack8.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack8.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack8.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack8.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack1.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack8.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\UEEngines\UE_4.27\Engine\Source\Runtime\Core\Public\Windows/HideWindowsPlatformTypes.h
+C:\UEEngines\UE_4.27\Engine\Source\Runtime\ApplicationCore\Public\GenericPlatform/IForceFeedbackSystem.h
+C:\UEEngines\UE_4.27\Engine\Source\Runtime\ApplicationCore\Public\Windows/WindowsTextInputMethodSystem.h
+C:\UEEngines\UE_4.27\Engine\Source\Runtime\ApplicationCore\Public\GenericPlatform/ITextInputMethodSystem.h
+C:\UEEngines\UE_4.27\Engine\Source\Runtime\ApplicationCore\Public\Windows/TextStoreACP.h
+C:\UEEngines\UE_4.27\Engine\Source\Runtime\Core\Public\Windows/AllowWindowsPlatformTypes.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\TextStor.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\msctf.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\ctfutb.h
+C:\UEEngines\UE_4.27\Engine\Source\Runtime\Core\Public\Microsoft/COMPointer.h
+C:\UEEngines\UE_4.27\Engine\Source\Runtime\Core\Public\Windows/HideWindowsPlatformTypes.h
+C:\UEEngines\UE_4.27\Engine\Source\Runtime\Core\Public\Windows/AllowWindowsPlatformTypes.h
+C:\UEEngines\UE_4.27\Engine\Source\Runtime\Core\Public\Windows/HideWindowsPlatformTypes.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\hidsdi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack4.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\hidusage.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\hidpi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack4.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:/P4Workspace/CombatSim/Plugins/RawInputPluginForUE4/Source/RawInput/Private/RawInputFunctionLibrary.cpp
+C:/P4Workspace/CombatSim/Plugins/RawInputPluginForUE4/Source/RawInput/Private/RawInputSettings.cpp
+C:\P4Workspace\CombatSim\Plugins\RawInputPluginForUE4\Source\RawInput\Public\RawInputSettings.h
+C:\P4Workspace\CombatSim\Plugins\RawInputPluginForUE4\Intermediate\Build\Win64\UE4Editor\Inc\RawInput\RawInputSettings.generated.h
+C:/P4Workspace/CombatSim/Plugins/RawInputPluginForUE4/Source/RawInput/Private/Windows/RawInputWindows.cpp
+C:\UEEngines\UE_4.27\Engine\Source\Runtime\Core\Public\Windows/AllowWindowsPlatformTypes.h
+C:\UEEngines\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/Canvas.h
+C:\UEEngines\UE_4.27\Engine\Source\Runtime\Engine\Public\CanvasItem.h
+C:\UEEngines\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/Font.h
+C:\UEEngines\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/FontImportOptions.h
+C:\UEEngines\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\FontImportOptions.generated.h
+C:\UEEngines\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Fonts/FontProviderInterface.h
+C:\UEEngines\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore\FontProviderInterface.generated.h
+C:\UEEngines\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Font.generated.h
+C:\UEEngines\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Canvas.generated.h
+C:\UEEngines\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/HUD.h
+C:\UEEngines\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/HUDHitBox.h
+C:\UEEngines\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/DebugTextInfo.h
+C:\UEEngines\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DebugTextInfo.generated.h
+C:\UEEngines\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\HUD.generated.h

@@ -282,6 +282,7 @@ void FRawInputWindows::SetupBindings(const int32 DeviceHandle, const bool bApply
 					AnalogData.KeyName = AxisProps.Key.GetFName();
 					AnalogData.Offset = AxisProps.Offset;
 					AnalogData.bInverted = AxisProps.bInverted;
+					AnalogData.Scale = AxisProps.Scale;
 				}
 				else
 				{
@@ -424,7 +425,7 @@ void FRawInputWindows::SetAnalogAxisIsInverted(const int32 DeviceHandle, const i
 	}
 }
 //设置axis offset
-void FRawInputWindows::SetAnalogAxisOffset(const int32 DeviceHandle, const int32 AxisIndex, const float Offset)
+void FRawInputWindows::SetAnalogAxisOffsetAndScale(const int32 DeviceHandle, const int32 AxisIndex, const float Offset, const float Scale)
 {
 	if (AxisIndex >= MAX_NUM_CONTROLLER_ANALOG)
 	{
@@ -439,11 +440,13 @@ void FRawInputWindows::SetAnalogAxisOffset(const int32 DeviceHandle, const int32
 			for (FAnalogData &EachData : DeviceEntry->AnalogData)
 			{
 				EachData.Offset = Offset;
+				EachData.Scale = Scale;
 			}
 		}
 		else
 		{
 			DeviceEntry->AnalogData[AxisIndex].Offset = Offset;
+			DeviceEntry->AnalogData[AxisIndex].Scale = Scale;
 		}
 	}
 	else

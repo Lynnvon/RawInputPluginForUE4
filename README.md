@@ -6,6 +6,7 @@
 ## bugfix
 2020-9-23 修复了按键失灵的bug
 
+(By CaTaTo: Added axis scale option and updated to 4.27) 
 
 > Written with [StackEdit](https://stackedit.io/).
 

@@ -107,10 +107,11 @@ struct FAnalogData
 		, Offset(0.f)
 		, PreviousValue(0.f)
 		, bInverted(false)
+		, Scale(1.f)
 	{
 	}
 
-	FAnalogData(const int32 InIndex, const float InValue, const float InRangeMin, const float InRangeMax, const float InOffset, const bool bInInverted, const FName InKeyName)
+	FAnalogData(const int32 InIndex, const float InValue, const float InRangeMin, const float InRangeMax, const float InOffset, const bool bInInverted, const FName InKeyName, const float InScale)
 		: Index(InIndex)
 		, Value(InValue)
 		, RangeMin(InRangeMin)
@@ -119,6 +120,7 @@ struct FAnalogData
 		, PreviousValue(0.f)
 		, bInverted(bInInverted)
 		, KeyName(InKeyName)
+		, Scale(InScale)
 	{
 	}
 
@@ -127,7 +129,7 @@ struct FAnalogData
 	{
 		const float Factor = 1.f / (RangeMax - RangeMin);
 		const float NormalizedValue = (bInverted ? (Value * Factor * -1.f) : (Value * Factor));
-		return NormalizedValue + Offset;
+		return NormalizedValue * Scale + Offset;
 	}
 
 	/* Whether the data represents a valid value */
@@ -153,6 +155,8 @@ struct FAnalogData
 	
 	/* Offset to apply to normalized axis value */
 	float Offset;
+
+	float Scale;
 
 	/* Is this axis inverted */
 	bool bInverted;
@@ -232,7 +236,7 @@ public:
 	virtual void BindAnalogForDevice(int32 DeviceHandle, FName EventName, int32 AxisIndex ) override;
 	virtual void SetMessageHandler(const TSharedRef< FGenericApplicationMessageHandler >& InMessageHandler) override;
 	virtual void SetAnalogAxisIsInverted(int32 DeviceHandle, int32 AxisIndex, bool bInvert) override;
-	virtual void SetAnalogAxisOffset(int32 DeviceHandle, int32 AxisIndex, float Offset) override;
+	virtual void SetAnalogAxisOffsetAndScale(int32 DeviceHandle, int32 AxisIndex, float Offset, float Scale) override;
 	// End RawInput interface
 
 	// Begin IInputDevice interface

@@ -59,7 +59,7 @@ public:
 	 * @param AxisIndex		Index of the axis to set. If INDEX_NONE all will be set.
 	 * @param Offset		Value to offset the normalized (and optionally inverted) value by
 	 */
-	virtual void SetAnalogAxisOffset(int32 DeviceHandle, int32 AxisIndex, float Offset) { }
+	virtual void SetAnalogAxisOffsetAndScale(int32 DeviceHandle, int32 AxisIndex, float Offset, float Scale) { }
 
 protected:
 
